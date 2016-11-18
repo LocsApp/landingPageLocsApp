@@ -2,9 +2,10 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
- 
+
 #nav {
 	position: fixed;
+	top: 0;
 	z-index: 99;
 	background: white;
 	-moz-box-shadow: 0px 2px 5px 0px #560703;
@@ -19,19 +20,19 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color=#560703, Direction=180, St
 	margin-bottom: 10px;
 	margin-left: 10px;
 }
- 
+
 #nav ul li {
 	display: inline;
 	margin: 0 20px 0 0;
 	margin-bottom: 130px;
 	font-weight: bold;
 }
- 
+
 #nav a {
 	text-decoration: none;
 	color:#C10000;
 }
- 
+
 #nav a:hover {
 	text-decoration: underline;
 
@@ -51,20 +52,40 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color=#560703, Direction=180, St
     text-align: center;
 }
 
+#section-summary {
+	margin-top: 100px;
+}
+
 #section-summary img {
     height: 400px;
     width: auto;
 }
 
+#section-team {
+	margin-top: 50px;
+}
+
 #section-team img {
     border-radius: 50%;
-    width: 150px;
+    width: 120px;
     height: auto;
     max-width: 100%;
     box-sizing: border-box;
+}
+
+#section-team .top-space {
+	margin-top: 30px;
+}
+
+#section-form {
+	margin-top: 50px;
 }
 
 .error {
 	margin-top: -15px;
 }
 
+.state-mail {
+	font-size: 2.5em;
+	margin-top: 100px;
+}

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <title>LocsApp</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" type="text/css">
+  <link rel="stylesheet" href="Skeleton-2.0.4/css/normalize.css" type="text/css">
+  <link rel="stylesheet" href="Skeleton-2.0.4/css/skeleton.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/responsive.css" type="text/css">
+
+
+</head>
+
+<body>
+  <header>
+
+  <div id="nav" class="twelve columns">
+  <ul>
+  <li><img src="img/logo_colorful_500px.png"></li>
+    <li><a href="#section-summary">Accueil</a></li>
+    <li><a href="#section-team">L'équipe</a></li>
+    <li><a href="#section-form">Inscription Bêtas</a></li>
+  </ul>
+  </div>
+
+  </header>
+
+  <div class="container">
+
+    <div id="section-summary">
+
+<div class="row">
+<h1 class="text-center">LocsApp</h1>
+</div>
+      <div class="row">
+        <div class="six columns">
+          <img class="u-max-full-width" src="img/smartphone.png">
+        </div>
+
+        <div class="six columns">
+
+          <p>
+            LocsApp est un site internet communautaire basé autour de la location de
+
+            vêtements entre particuliers se focalisant sur les déguisements, vêtements
+
+            de luxe et sportifs. Cette solution
+
+            est destinée à mettre en relation les
+
+            personnes voulant rentabiliser leur
+
+            garde-robe et celles n’ayant pas les
+
+            moyens nécessaires pour s’acheter des
+
+            vêtements coûteux.
+
+            Les loueurs vont utiliser le site web
+
+            pour mettre leurs vêtements en location. Ensuite, les locataires recherchent
+
+            les articles qu’ils souhaitent par le biais
+
+            du site ou des applications mobiles
+
+            (iOS, Android et Windows Phone). La
+
+            proximité de l’article joue un rôle clé
+
+            pour l’utilisateur, de façon à ce qu’il
+            puisse trouver son article de façon
+
+            optimale et rapide. Enfin, les loueurs
+
+            acceptent ou pas les locataires. Pour
+
+            certifier du sérieux de chacun, les
+
+            utilisateurs se notent entre eux, pour
+
+            garantir la confiance entre membres de
+
+            LocsApp. Nous attachons une grande
+
+            importance à la proximité des utilisateurs entre eux.
+          </p>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div id="section-team">
+
+    <div class="row">
+<h2 class="text-center">L'équipe</h2>
+</div>
+
+      <div class="row">
+
+        <div class="four columns text-center">
+          <img src="img/team/chatea_s.jpg"> <br>
+          <span>Sylvain Chateau</span> <br>
+          <span>Développeur Web</span>
+        </div>
+
+        <div class="four columns text-center">
+          <img src="img/team/caille_j.jpg"> <br>
+          <span>Julian Caille</span> <br>
+          <span>Développeur Web</span>
+        </div>
+
+        <div class="four columns text-center">
+          <img src="img/team/duboy_m.jpg"> <br>
+          <span>Maxime Duboy</span> <br>
+          <span>Développeur Windows Phone</span>
+        </div>
+
+      </div>
+
+      <div class="row top-space">
+
+        <div class="four columns text-center">
+          <img src="img/team/hassle_d.jpg"> <br>
+          <span>Damien Hassler</span> <br>
+          <span>Développeur Android</span>
+        </div>
+
+        <div class="four columns text-center">
+          <img src="img/team/mousta_m.jpg"> <br>
+          <span>Marwa Moustafa</span> <br>
+          <span>Développeuse iOS</span>
+        </div>
+
+        <div class="four columns text-center">
+          <img src="img/team/peigne_a.jpg"> <br>
+          <span>Sylvain Peigne</span> <br>
+          <span>Développeur Web</span>
+        </div>
+
+      </div>
+
+    </div>
+
+    <form id="section-form" action="process.php" method="post">
+
+      <div class="row">
+<h2 class="text-center">Bêtas</h2>
+</div>
+
+      <div class="row">
+        <div class="six columns">
+          <label for="firstName">Votre prénom</label>
+          <input class="u-full-width" type="text" placeholder="" id="firstName" name="firstName">
+        </div>
+
+        <div class="six columns">
+          <label for="lastName">Votre nom</label>
+          <input class="u-full-width" type="text" placeholder="" id="lastName" name="lastName">
+        </div>
+
+        <div class="row">
+          <div class="six columns">
+            <label for="email">Votre email *</label>
+            <input class="u-full-width" type="email" placeholder="" id="email" name="email">
+          </div>
+          <div class="six columns">
+            <label for="beta">A quel bêta êtes-vous interessés *</label>
+            <select class="u-full-width" id="beta" name="beta">
+              <option value="beta_web">Web</option>
+              <option value="beta_android">Android</option>
+              <option value="beta_ios">iOS</option>
+              <option value="beta_windows_phobe">Windows Phone</option>
+            </select>
+          </div>
+        </div>
+        <label for="message">Message</label>
+        <textarea class="u-full-width" placeholder="" id="message" name="message"></textarea>
+        <input class="button-primary u-pull-right" type="submit" name="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+
+
+  <footer>
+
+  </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function () {
+
+    $('#section-form').validate({ // initialize the plugin
+        rules: {
+            email: {
+                required: true,
+                email: true
+            }
+        }
+    });
+
+   $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+
+});
+
+</script>
+</body>
+
+</html>

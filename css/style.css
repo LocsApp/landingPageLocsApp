@@ -43,6 +43,10 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color=#560703, Direction=180, St
 	vertical-align: middle;
 }
 
+#nav li:nth-child(2) {
+	margin-left: 30px;
+}
+
 .text-center {
     text-align: center;
 }

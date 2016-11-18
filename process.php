@@ -1,5 +1,5 @@
 <?php
-header( "refresh:5;url=index.php" );
+header( "refresh:5;url=index.html" );
 
 /* Functions we used */
 function escapeData($data)

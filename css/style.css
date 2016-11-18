@@ -1,0 +1,16 @@
+.text-center {
+    text-align: center;
+}
+
+#section-summary img {
+    max-width: 100%;
+    height: 400px;
+    width: auto;
+}
+
+#section-team img {
+    border-radius: 50%;
+    //max-width: 100%;
+    width: 150px;
+    height: auto;
+}
